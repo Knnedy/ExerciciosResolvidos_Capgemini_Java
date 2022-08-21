@@ -15,7 +15,7 @@ public class Program {
 
       System.out.print("X: ");
       int x = sc.nextInt();
-      System.out.println("X: ");
+      System.out.print("Y: ");
       int y = sc.nextInt();
 
       int soma = x + y;
