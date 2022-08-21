@@ -1,6 +1,7 @@
 package exercicio4;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 /**
  * Escreva um algoritmo que leia o nome de um vendedor, o seu salário fixo e o
@@ -8,8 +9,6 @@ import java.util.Locale;
  * vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o seu
  * nome, o salário fixo e salário no final do mês
  */
-
-import java.util.Scanner;
 
 public class Program {
     
