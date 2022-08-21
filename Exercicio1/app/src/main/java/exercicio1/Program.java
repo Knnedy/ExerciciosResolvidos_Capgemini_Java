@@ -1,5 +1,9 @@
 package exercicio1;
 
+/**
+ * Faça um algoritmo que receba dois números e exiba o resultado da sua soma
+ */
+
 import java.util.Scanner; 
 
 public class Program {
