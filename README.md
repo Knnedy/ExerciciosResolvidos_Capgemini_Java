@@ -1,6 +1,6 @@
 # Curso de Lógica para Programação Ⅲ
 
-Instrutor: Marcio Michelluzzi
+Instrutor: Marcio Michelluzzi - Capgemini
 
 ## Lista de exercícios
 
