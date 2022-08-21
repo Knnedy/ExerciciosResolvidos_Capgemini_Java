@@ -1,4 +1,4 @@
-# Curso de Lógica para Programação III
+# Curso de Lógica para Programação Ⅲ
 
 Instrutor: Marcio Michelluzzi
 
