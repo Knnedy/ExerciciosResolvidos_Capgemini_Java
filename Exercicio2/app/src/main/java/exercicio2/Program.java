@@ -13,7 +13,6 @@ public class Program {
   
     try(Scanner sc = new Scanner(System.in)) {
 
-
       System.out.print("X: ");
       int x = sc.nextInt();
       System.out.println("X: ");
