@@ -20,13 +20,13 @@ Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischo
 
 [Exercício 8:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio8/app/src/main/java/exercicio8/Program.java) Elabore um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também aquantidade de dólares disponíveis com o usuário;
 
-[Exercício 9:]() Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m()
+[Exercício 9:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio9/app/src/main/java/exercicio9/Program.java) Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m()
 
-10. A Loja Mamão com Açúcar está vendendo seus produtos em5(cinco)prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações;
+[Exercício 10:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio10/app/src/main/java/exercicio10/Program.java) A Loja Mamão com Açúcar está vendendo seus produtos em5(cinco)prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações;
 
-11. Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário;
+[Exercício 11:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio11/app/src/main/java/exercicio11/Program.java) Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário;
 
-12. O custo de um carro novo ao consumidoré a soma do custo de fábrica mais o percentual do distribuidor e dos impostos aplicados (primeiro os impostos são aplicados sobre o custo de fábrica, e depois o percentual do distribuidor sobre o resultado). Supondo que o percentual do distribuidor seja de 28% e os impostos 45%, escreva um algoritmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo;
+[Exerício 12:]() O custo de um carro novo ao consumidoré a soma do custo de fábrica mais o percentual do distribuidor e dos impostos aplicados (primeiro os impostos são aplicados sobre o custo de fábrica, e depois o percentual do distribuidor sobre o resultado). Supondo que o percentual do distribuidor seja de 28% e os impostos 45%, escreva um algoritmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo;
 
 13. Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10;
 
