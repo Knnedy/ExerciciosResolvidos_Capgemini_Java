@@ -19,7 +19,7 @@ public class Program {
 
 			double cotacaoDollar; // Cotação atual
 			double meuDollar;
-			double real;
+			double dollarConvertido;
 
 			System.out.print("Cotação atual do dollar: US$");
 			cotacaoDollar = sc.nextDouble();
@@ -27,10 +27,10 @@ public class Program {
 			System.out.print("Quantos doláres você tem? ");
 			meuDollar = sc.nextDouble();
 
-			real = meuDollar * cotacaoDollar;
+			dollarConvertido = meuDollar * cotacaoDollar;
 
 			System.out.println("Convertendo US$" + String.format("%.2f", meuDollar) + 
-												 " para R$" + String.format("%.2f", real));
+												 " para R$" + String.format("%.2f", dollarConvertido));
 												 
 		}
 	}
