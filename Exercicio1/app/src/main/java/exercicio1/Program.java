@@ -11,7 +11,6 @@ public class Program {
       int xA, xB;
       int soma;
 
-    
       System.out.print("x1: ");
       xA = sc.nextInt();
       System.out.print("x2: ");
@@ -21,8 +20,6 @@ public class Program {
 
       System.out.println();
       System.out.println("A soma é:  " + soma);
-
-
 
     }
   }
