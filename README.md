@@ -1,8 +1,8 @@
 # Curso de Lógica para Programação Ⅲ
 
-Instrutor: Marcio Michelluzzi - Capgemini
+Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischool.brazilsouth.cloudapp.azure.com/)
 
-## Lista de exercícios
+## Lista de exercícios básicos em Java procedural
 
 [Exercício 1:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio1/app/src/main/java/exercicio1/Program.java) Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 
@@ -20,7 +20,7 @@ Instrutor: Marcio Michelluzzi - Capgemini
 
 [Exercício 8:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio8/app/src/main/java/exercicio8/Program.java) Elabore um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também aquantidade de dólares disponíveis com o usuário;
 
-9. Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m;
+[Exercício 9:]() Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m()
 
 10. A Loja Mamão com Açúcar está vendendo seus produtos em5(cinco)prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações;
 
