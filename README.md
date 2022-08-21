@@ -18,7 +18,7 @@ Instrutor: Marcio Michelluzzi - Capgemini
 
 [Exercício 7:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio7/app/src/main/java/exercicio7/Program.java) Leia uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius;
 
-[Exercício 8:]() Elabore um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também aquantidade de dólares disponíveis com o usuário;
+[Exercício 8:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio8/app/src/main/java/exercicio8/Program.java) Elabore um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também aquantidade de dólares disponíveis com o usuário;
 
 9. Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m;
 
