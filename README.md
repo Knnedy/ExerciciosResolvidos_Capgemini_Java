@@ -1,8 +1,11 @@
 # Curso de Lógica para Programação Ⅲ
 
+
 Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischool.brazilsouth.cloudapp.azure.com/)
 
-## Lista de exercícios básicos em Java procedural
+## Segue abaixo lista de exerícios concluídos por mim
+
+### Exercícios básicos em Java usando programação procedural
 
 [Exercício 1:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio1/app/src/main/java/exercicio1/Program.java) Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 
@@ -26,7 +29,7 @@ Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischo
 
 [Exercício 11:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio11/app/src/main/java/exercicio11/Program.java) Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário;
 
-[Exerício 12:]() O custo de um carro novo ao consumidoré a soma do custo de fábrica mais o percentual do distribuidor e dos impostos aplicados (primeiro os impostos são aplicados sobre o custo de fábrica, e depois o percentual do distribuidor sobre o resultado). Supondo que o percentual do distribuidor seja de 28% e os impostos 45%, escreva um algoritmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo;
+[Exerício 12:]() O custo de um carro novo ao consumidor é a soma do custo de fábrica mais o percentual do distribuidor e dos impostos aplicados (primeiro os impostos são aplicados sobre o custo de fábrica, e depois o percentual do distribuidor sobre o resultado). Supondo que o percentual do distribuidor seja de 28% e os impostos 45%, escreva um algoritmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo;
 
 13. Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10;
 
