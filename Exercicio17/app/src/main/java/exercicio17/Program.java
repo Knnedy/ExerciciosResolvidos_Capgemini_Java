@@ -7,6 +7,7 @@ package exercicio17;
 
 import java.util.Scanner;
 import java.util.Locale;
+import java.util.Random;
 
 public class Program {
 
@@ -14,13 +15,15 @@ public class Program {
 
 		try(Scanner sc = new Scanner(System.in)) {
 
+			Random rand = new Random();
+
 			Locale.setDefault(Locale.US);
 
-			int num = 1, intervalo = 0;
+			int num, intervalo = 0;
 
-			for(int i = 1; i <= 80; i++) {
-				System.out.println("Número: " + i);
-				num = sc.nextInt();
+			for(int i = 0; i <= 80; i++) {
+				num = rand.nextInt(1000);
+				System.out.println("Número: " + num);
 				
 				if(num >= 10 && num <= 150) {
 					intervalo++;
