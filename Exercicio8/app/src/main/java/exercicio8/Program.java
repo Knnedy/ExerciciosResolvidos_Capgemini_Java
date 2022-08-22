@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.util.Locale;
 
 public class Program {
-	
+
 	public static void main(String[] args) {
 		
 		try(Scanner sc = new Scanner(System.in)) {
@@ -32,7 +32,7 @@ public class Program {
 
 			System.out.println("Convertendo US$" + String.format("%.2f", meuDollar) + 
 												 " para R$" + String.format("%.2f", dollarConvertido));
-												 
+												 										 
 		}
 	}
 }
