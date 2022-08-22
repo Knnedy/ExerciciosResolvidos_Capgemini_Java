@@ -5,7 +5,6 @@ package exercicio17;
  * entre 10 (inclusive) e 150 (inclusive) 
  */
 
-
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -17,18 +16,18 @@ public class Program {
 
 			Locale.setDefault(Locale.US);
 
-			int numero = 0, intervalo = 0;
+			int num = 1, intervalo = 0;
 
 			for(int i = 1; i <= 5; i++) {
 				System.out.println("Número: " + i);
-				numero= sc.nextInt();
+				num = sc.nextInt();
 				
-				if(numero >= 10 && numero <= 150) {
+				if(num >= 10 && num <= 150) {
 					intervalo++;
 				}
 				
 			}
-			System.out.println("Números no intervalo entre 10 e 150: " + intervalo);
+			System.out.print("Números no intervalo entre 10 e 150: " + intervalo);
 
 		}
 	}
