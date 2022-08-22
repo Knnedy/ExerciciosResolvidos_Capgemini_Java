@@ -23,10 +23,18 @@ public class Program {
       System.out.print("Valor da compra: R$");
       valorDaCompra = sc.nextDouble();
 
-      parcelas = valorDaCompra / 5;
+      System.out.print("Quantas parcelas? ");
+      parcelas = sc.nextDouble();
 
-      System.out.print("Total da compra: R$" + String.format("%.2f", valorDaCompra) + 
-                       " | Valor das Parcelas: R$" + String.format("%.2f", parcelas));
+      double valorParcelas = valorDaCompra / parcelas;
+
+      //System.out.print("Total da compra: R$" + String.format("%.2f", valorDaCompra) + 
+      //                 " | Valor das Parcelas: R$" + String.format("%.2f", parcelas));
+
+      for (int i = 0; i<=valorParcelas;i++) {
+      System.out.println("O valor da "+i+ "a parcela é de R$ " + String.format("%.2f", valorParcelas));
+      }
+
 
     } 
   }
