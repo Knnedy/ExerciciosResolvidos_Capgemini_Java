@@ -6,7 +6,6 @@ package exercicio18;
  * partir de 18 anos como maior de idade;
  */
 
-
 import java.util.Scanner;
 import java.util.Random;
 
