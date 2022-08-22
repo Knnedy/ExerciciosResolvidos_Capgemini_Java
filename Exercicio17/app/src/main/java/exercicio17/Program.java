@@ -25,7 +25,6 @@ public class Program {
 				if(num >= 10 && num <= 150) {
 					intervalo++;
 				}
-				
 			}
 			System.out.print("Números no intervalo entre 10 e 150: " + intervalo);
 
