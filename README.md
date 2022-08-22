@@ -25,7 +25,7 @@ Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischo
 
 [Exercício 9:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio9/app/src/main/java/exercicio9/Program.java) Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.Considere fixo o juro da poupança em 0,07% a. m()
 
-[Exercício 10:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio10/app/src/main/java/exercicio10/Program.java) A Loja Mamão com Açúcar está vendendo seus produtos em5(cinco)prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações;
+[Exercício 10:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio10/app/src/main/java/exercicio10/Program.java) A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações;
 
 [Exercício 11:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio11/app/src/main/java/exercicio11/Program.java) Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário;
 
