@@ -2,7 +2,7 @@ package exercicio19;
 
 /**
  * Escreva um algoritmo que leia o nome e o sexo de 56 pessoas e informe o nome
- * e se ela é homem ou mulher. No final informe total de homens e de mulheres
+ * e se ela é homem ou mulher. No final informe total de homens e de mulheres.
  */
 
 import java.util.Scanner;
@@ -14,33 +14,6 @@ public class Program {
 
 		try(Scanner sc = new Scanner(System.in)) {
 			
-/* 			String nome;
-			char sexo;
-
-			int mas = 0, fem = 0;
-
-			for(int i = 0; i < 5; i++) {
-				// Leia o nome
-				System.out.print("Digite o seu nome: ");
-				nome = sc.nextLine();
-				
-				// Leia o sexo
-				System.out.print("Seu sexo [Masculino/Feminino]: ");
-				sexo = sc.next().charAt(0);
-				sc.nextLine();
-	
-				if(sexo == 'M' || sexo == 'm') {
-					mas ++;
-				}
-				else{
-					fem ++;
-				}
-
-				System.out.println("Nome: " + nome);
-				System.out.println("Sexo: " + sexo + "\n");
-			}
-			System.out.println("Homens: " + mas + " | Mulheres: " + fem); */
-
 			// randomizando String
 			Random rand = new Random();
 
@@ -49,24 +22,33 @@ public class Program {
 
 			// randomizando Char
 			String sexo = "fm";
-			
-			int lenght = 8;
-			
+			int lenghtString = 4;
 			int randInt;
 			char randomSex = 0;
+			int index;
+
+			// contador
+			int contador = 0;
+			while(contador < 4){
 			
-			for(int i = 0; i < lenght; i++) {
-				int index = rand.nextInt(alpha.length());
-				char randomChar = alpha.charAt(index);
-				sb.append(randomChar);
+				contador++;
 
-				randInt = rand.nextInt(sexo.length());
-				randomSex = sexo.charAt(randInt);
+				for(int i = 0; i < lenghtString; i++) {
+					
+					// randomizando o nome
+					index = rand.nextInt(alpha.length());
+					sb.append(alpha.charAt(index));
+					
+					// randomizando o sexo
+					randInt = rand.nextInt(sexo.length());
+					randomSex = sexo.charAt(randInt);
+				}
+	
+				String randomString =  sb.toString();
+				System.out.println("Digite o nome da pessoa: " + randomString);
+				System.out.println("Sexo: " + randomSex);
+
 			}
-
-			String randomString = sb.toString();
-			System.out.println("Digite o nome da pessoa: " + randomString);
-			System.out.println("Sexo: " + randomSex);
 
 		}
 	}
