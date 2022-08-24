@@ -5,51 +5,50 @@ package exercicio19;
  * e se ela é homem ou mulher. No final informe total de homens e de mulheres.
  */
 
-import java.util.Scanner;
 import java.util.Random;
 
 public class Program {
 
 	public static void main(String[] args) {
 
-		try(Scanner sc = new Scanner(System.in)) {
-			
-			// randomizando String
-			Random rand = new Random();
+		Random rand = new Random();
+		String alphabet = "abcdefghijklmnopqrstuvwxyz";
+		String sexo = "MF";
+		String randomString = "";
 
-			String alpha = "abcdefghijklmnopqrstuvwxyz";
-			StringBuilder sb = new StringBuilder();
+		int homem = 0, mulher = 0;
+		int randInt;
+		char randomSex = 0;
+		int lenghtStr = 7;
+		int index =  -1;
 
-			// randomizando Char
-			String sexo = "fm";
-			int lenghtString = 4;
-			int randInt;
-			char randomSex = 0;
-			int index;
-
-			// contador
-			int contador = 0;
-			while(contador < 4){
-			
-				contador++;
-
-				for(int i = 0; i < lenghtString; i++) {
-					
-					// randomizando o nome
-					index = rand.nextInt(alpha.length());
-					sb.append(alpha.charAt(index));
-					
-					// randomizando o sexo
-					randInt = rand.nextInt(sexo.length());
-					randomSex = sexo.charAt(randInt);
-				}
-	
-				String randomString =  sb.toString();
-				System.out.println("Digite o nome da pessoa: " + randomString);
-				System.out.println("Sexo: " + randomSex);
+		for(int i = 0; i < 56; i++) {
+			randomString = "";
+			for(int j = 0; j < lenghtStr; j++){
+				// randomizando o nome
+				index = rand.nextInt(alphabet.length());
+				randomString += alphabet.substring(index, index + 1);
 
 			}
+			
+			// randomizando o sexo
+			randInt = rand.nextInt(sexo.length());
+			randomSex = sexo.charAt(randInt);
 
+			if(randomSex == 'M') {
+				homem++;
+			}
+			else {
+				mulher++;
+			}
+			
+			System.out.println("Nome: " + randomString);
+			System.out.println("Sexo: " + randomSex);
 		}
+		
+		System.out.println("Total de Homens: " + homem);
+		System.out.println("Total de Mulheres: " + mulher);
+	
 	}
 }
+
