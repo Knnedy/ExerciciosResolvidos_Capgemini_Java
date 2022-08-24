@@ -49,9 +49,9 @@ Ministrado pelo instrutor Marcio Michelluzzi da [Capgemini](http://capgeminischo
 
 [Exercício 21:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio21/app/src/main/java/exercicio21/Program.java) Escreva um algoritmo que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta ou não para cumprir o serviço militar obrigatório. Informe os totais;
 
-22. Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe o valor de custo de cada produto, o valor de venda de cada produto, amédia de preço de custo e do preço de venda;
+[Exercício 22:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio22/app/src/main/java/exercicio22/Program.java) Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe o valor de custo de cada produto, o valor de venda de cada produto, amédia de preço de custo e do preço de venda;
 
-23. Faça um algoritmo que receba um número e mostre uma mensagem caso este número sege maior que 80, menor que 25 ou igual a 40;
+[Exercício 23:](https://github.com/kennedyvitorino/ExerciciosResolvidos_Capgemini_Java/blob/master/Exercicio23/app/src/main/java/exercicio23/program.java)Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 80, menor que 25 ou igual a 40;
 
 24. Faça um algoritmo que receba “N” números e mostre positivo, negativo ou zero para cada número;
 
